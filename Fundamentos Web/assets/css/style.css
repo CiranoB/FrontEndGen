@@ -1,0 +1,64 @@
+
+
+/*estilos da index2*/
+
+.center {
+    text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  text-align: center;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+#menu li{
+  display: inline;
+  padding: 5%;
+}
+
+#menu li a:hover{
+  color: grey;
+}
+
+.br-50{
+  border-radius: 50%;
+}
+
+/*haha*/
