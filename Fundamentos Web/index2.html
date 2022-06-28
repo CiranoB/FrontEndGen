@@ -5,8 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content ="width=device-width, initial-scale=1.0">
         <title>Psicóloga Luciane Beltrami</title>
-        <link rel="stylesheets" href="/assets/css/style.css">
+        <link rel="stylesheet" href="/assets/css/style.css">
     </head>
+    <body class ="center">
+        <h1>Sobre mim: </h1> 
     
     <u1 id="menu">
         <li>
@@ -22,9 +24,7 @@
         </div>
 
       
-      <body class ="center">
-        <h1>Sobre mim: </h1> 
-        <body>
+      
 
     <div>
         <h3>Formada em xxxx, atuo desde xxxx na área xxxx com especialização xxxxx</h1>
@@ -45,17 +45,23 @@
 
     <form>
         <label for="nome">Nome:</label>
-        <input type="text" id="nome">
+        <input type="text" id="nome" onkeyup='validaNome()'>
+        <div id="txtnome"></div>
         <br>
         <label for="email">E-mail:</label>
-        <input type="email" id="email">
+        <input type="email" id="email" onkeyup='validaEmail()'>
+        <div id="txtemail"></div>
         <br>
         <label for="assunto">Assunto:</label>
         <input type="text" id="assunto">
     </form>
+
 <hr>
 
     <footer>
         Criado por Cirano 
     </footer>
+
+    <script src='/assets/scripts/scripts.js' ></script>
+    <body>
 </html>
